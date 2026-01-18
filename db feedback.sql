@@ -1,0 +1,12 @@
+CREATE DATABASE feedback_db;
+USE feedback_db;
+
+CREATE TABLE feedback (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  rating INT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+SELECT * FROM feedback;
+USE edubridge;
+
+SHOW TABLES;
